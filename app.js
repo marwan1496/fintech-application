@@ -34,11 +34,11 @@ app.use(express.json()); // Middleware to parse JSON bodies in incoming requests
 const adminUsername = "admin";
 const adminPassword = "admin";
 const jwtSecret = "56025E0C0FA4CBC84F060DAD39D8116B7B3161FC"; // In production, store this securely in a .env file
-const tokenExpiry = "1h"; // Token expires in 1 hour
+const tokenExpiry = "1h"; // Token expires in 1 hour 
 
 /**
  * @swagger
- * /admin/login:
+ * /login:
  *   post:
  *     summary: Admin login to generate a JWT token.
  *     description: Validate admin credentials and return a JWT token with an admin role claim.
@@ -69,7 +69,7 @@ const tokenExpiry = "1h"; // Token expires in 1 hour
  *       401:
  *         description: Invalid credentials.
  */
-app.post('/admin/login', (req, res) => {
+app.post('/login', (req, res) => {
   const { username, password } = req.body;
   
   // Validate admin credentials
