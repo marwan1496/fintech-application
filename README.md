@@ -1,7 +1,5 @@
 # fintech-application
 
-# fintech-application
-
 Fintech Application is a backend service built with Node.js and Express for managing user accounts with JWT authentication. The API allows users to log in, create accounts, deposit funds, withdraw funds, and check account balances. For demonstration purposes, the data is stored in memory. In a production environment, sensitive credentials (like JWT secrets) should be stored securely (for example, in environment variables), and data should be persisted using a database.
 
 ## Features
@@ -34,5 +32,5 @@ Fintech Application is a backend service built with Node.js and Express for mana
 1. **Clone the repository:**
 
    ```bash
-   git clone https://github.com/yourusername/axis-task.git
-   cd axis-task
+   git clone https://github.com/marwan1496/fintech-application.git
+   cd fintech-application
