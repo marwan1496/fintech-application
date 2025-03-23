@@ -1,0 +1,16 @@
+# Ignore node_modules directory
+node_modules
+
+# Ignore npm debug logs
+npm-debug.log*
+
+# Ignore git repository files
+.git
+.gitignore
+
+# Optionally ignore Dockerfile and README if not needed in the image
+Dockerfile
+README.md
+
+# Ignore environment files
+.env
